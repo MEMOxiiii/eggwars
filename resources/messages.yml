@@ -1,0 +1,44 @@
+# EggWars Messages Configuration
+
+# General messages
+prefix: "§6[EggWars] §r"
+no_permission: "§cYou don't have permission to use this command!"
+player_only: "§cThis command can only be used by players!"
+unknown_command: "§cUnknown command. Use /ew help for help."
+
+# Game messages
+game:
+  joined_arena: "§aYou joined arena {arena}!"
+  left_arena: "§eYou left the arena!"
+  arena_not_found: "§cArena not found!"
+  arena_full: "§cArena is full!"
+  already_in_arena: "§cYou are already in an arena!"
+  not_in_arena: "§cYou are not in any arena!"
+  game_starting: "§eGame starting in {time} seconds!"
+  game_started: "§aGame has started!"
+  game_ended: "§cGame ended!"
+  team_eliminated: "§cTeam {team} has been eliminated!"
+  player_eliminated: "§c{player} has been eliminated!"
+  egg_destroyed: "§c{team}'s egg has been destroyed!"
+  cannot_respawn: "§cYou cannot respawn! Your egg is destroyed!"
+  respawning: "§eRespawning in {time} seconds..."
+
+# Team messages
+team:
+  assigned: "§aYou have been assigned to team {team}!"
+  friendly_fire: "§cYou cannot damage your teammates!"
+  own_egg: "§cYou cannot break your own team's egg!"
+
+# Shop messages
+shop:
+  opened: "§aShop opened!"
+  purchased: "§aYou purchased {item}!"
+  cannot_afford: "§cYou cannot afford this item!"
+  item_not_found: "§cItem not found!"
+  not_in_game: "§cYou must be in an active game to use the shop!"
+
+# Error messages
+error:
+  world_not_found: "§cWorld {world} not found!"
+  config_error: "§cConfiguration error!"
+  plugin_error: "§cPlugin error occurred!"

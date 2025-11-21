@@ -1,0 +1,21 @@
+name: EggWars
+version: 1.8.4
+description: EggWars plugin for PocketMine-MP
+main: EggWars\Main
+api: 5.0.0
+author: EggWars Developer
+
+permissions:
+  eggwars.admin:
+    description: "Admin permissions for EggWars"
+    default: op
+  eggwars.player:
+    description: "Player permissions for EggWars"
+    default: true
+
+commands:
+  eggwars:
+    description: "Main EggWars command"
+    usage: "/eggwars <subcommand>"
+    permission: eggwars.player
+    aliases: ["ew"]

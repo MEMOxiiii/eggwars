@@ -1,0 +1,97 @@
+# EggWars Arenas Configuration
+
+# Example arena configuration
+example_arena:
+  world: "world"
+  min_players: 4
+  max_players: 16
+  lobby_spawn:
+    x: 0
+    y: 100
+    z: 0
+  spectator_spawn:
+    x: 0
+    y: 120
+    z: 0
+  teams:
+    red:
+      color: "§c"
+      spawn:
+        x: 50
+        y: 100
+        z: 0
+      egg:
+        x: 45
+        y: 101
+        z: 0
+      generators:
+        - type: "iron"
+          x: 48
+          y: 100
+          z: 2
+        - type: "gold"
+          x: 48
+          y: 100
+          z: -2
+    blue:
+      color: "§9"
+      spawn:
+        x: -50
+        y: 100
+        z: 0
+      egg:
+        x: -45
+        y: 101
+        z: 0
+      generators:
+        - type: "iron"
+          x: -48
+          y: 100
+          z: 2
+        - type: "gold"
+          x: -48
+          y: 100
+          z: -2
+    green:
+      color: "§a"
+      spawn:
+        x: 0
+        y: 100
+        z: 50
+      egg:
+        x: 0
+        y: 101
+        z: 45
+      generators:
+        - type: "iron"
+          x: 2
+          y: 100
+          z: 48
+        - type: "gold"
+          x: -2
+          y: 100
+          z: 48
+    yellow:
+      color: "§e"
+      spawn:
+        x: 0
+        y: 100
+        z: -50
+      egg:
+        x: 0
+        y: 101
+        z: -45
+      generators:
+        - type: "iron"
+          x: 2
+          y: 100
+          z: -48
+        - type: "gold"
+          x: -2
+          y: 100
+          z: -48
+  center_generators:
+    - type: "diamond"
+      x: 0
+      y: 95
+      z: 0

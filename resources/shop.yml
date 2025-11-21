@@ -1,0 +1,122 @@
+# EggWars Shop Configuration
+
+categories:
+  blocks:
+    display_name: "Blocks"
+    items:
+      - type: "stone"
+        count: 16
+        display_name: "Stone Blocks"
+        cost:
+          iron: 4
+        description:
+          - "Basic building blocks"
+      - type: "oak_planks"
+        count: 16
+        display_name: "Wood Blocks"
+        cost:
+          iron: 8
+        description:
+          - "Stronger building blocks"
+      - type: "obsidian"
+        count: 4
+        display_name: "Obsidian"
+        cost:
+          diamond: 2
+        description:
+          - "Blast resistant blocks"
+
+  weapons:
+    display_name: "Weapons"
+    items:
+      - type: "wooden_sword"
+        count: 1
+        display_name: "Wooden Sword"
+        cost:
+          iron: 10
+        description:
+          - "Basic weapon"
+      - type: "stone_sword"
+        count: 1
+        display_name: "Stone Sword"
+        cost:
+          iron: 20
+        description:
+          - "Better weapon"
+      - type: "iron_sword"
+        count: 1
+        display_name: "Iron Sword"
+        cost:
+          gold: 5
+        description:
+          - "Strong weapon"
+      - type: "diamond_sword"
+        count: 1
+        display_name: "Diamond Sword"
+        cost:
+          diamond: 3
+        description:
+          - "Ultimate weapon"
+
+  armor:
+    display_name: "Armor"
+    items:
+      - type: "leather_helmet"
+        count: 1
+        display_name: "Leather Helmet"
+        cost:
+          iron: 5
+      - type: "leather_chestplate"
+        count: 1
+        display_name: "Leather Chestplate"
+        cost:
+          iron: 8
+      - type: "iron_helmet"
+        count: 1
+        display_name: "Iron Helmet"
+        cost:
+          gold: 3
+      - type: "iron_chestplate"
+        count: 1
+        display_name: "Iron Chestplate"
+        cost:
+          gold: 5
+
+  food:
+    display_name: "Food"
+    items:
+      - type: "bread"
+        count: 3
+        display_name: "Bread"
+        cost:
+          iron: 2
+        description:
+          - "Restores hunger"
+      - type: "golden_apple"
+        count: 1
+        display_name: "Golden Apple"
+        cost:
+          gold: 3
+        description:
+          - "Restores health and hunger"
+
+  special:
+    display_name: "Special Items"
+    items:
+      - type: "arrow"
+        count: 8
+        display_name: "Arrows"
+        cost:
+          gold: 2
+      - type: "bow"
+        count: 1
+        display_name: "Bow"
+        cost:
+          gold: 8
+      - type: "tnt"
+        count: 1
+        display_name: "TNT"
+        cost:
+          gold: 4
+        description:
+          - "Explosive block"

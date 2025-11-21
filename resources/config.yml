@@ -1,0 +1,52 @@
+# EggWars Plugin Configuration
+
+# General settings
+general:
+  max_players_per_arena: 16
+  min_players_to_start: 4
+  countdown_time: 30
+  game_timeout: 1800  # 30 minutes
+
+# Main Lobby Spawn Configuration
+lobby-spawn:
+  world: "world"
+  x: 0
+  y: 65
+  z: 0
+  pitch: 0.0
+  yaw: 0.0
+
+# Generator settings
+generators:
+  iron:
+    spawn_interval: 2  # seconds
+    max_items: 8
+  gold:
+    spawn_interval: 10  # seconds
+    max_items: 6
+  diamond:
+    spawn_interval: 30  # seconds
+    max_items: 4
+
+# Team settings
+teams:
+  colors:
+    red: "§c"
+    blue: "§9"
+    green: "§a"
+    yellow: "§e"
+    purple: "§5"
+    orange: "§6"
+    pink: "§d"
+    gray: "§8"
+
+# Economy settings
+economy:
+  enabled: true
+  starting_resources:
+    iron: 0
+    gold: 0
+    diamond: 0
+
+# Scoreboard settings
+server_name: "cubecraft.net"
